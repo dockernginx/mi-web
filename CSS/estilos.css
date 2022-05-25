@@ -1,0 +1,131 @@
+header{
+    background-color: yellow;
+    border: 10px  solid black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+}
+header h1{
+    padding-left: 40%;
+}
+nav{
+    background: #cccc;
+    padding: 5px 15px;
+}
+nav li{
+    display: inline-block;
+    /*list-style: none;*/
+    padding: 5px;
+    font: bold 14px verdana ;
+}
+body{
+    text-align: center;
+    background-color:#B7C6D1;
+}
+section{
+    background-color: #5498CA;
+    float: right;
+    width: 70%;
+    margin: 10px 20px 10px 20px;
+    text-align: justify;
+}
+aside{
+    float: right;
+    width: 20%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: left;
+}
+aside ul li{
+    margin-top: 10px; 
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+aside ul li a{
+    text-decoration: inherit;
+}
+article{
+text-align: left;
+background: white;
+border: 1px solid red;
+padding: 20px;
+margin-bottom: 15px;
+margin-left: 5%;
+margin-right: 30%;
+font-size: 15px; 
+}
+article h3{
+    text-align: left;
+}
+article #cursos{
+    list-style-type: none;
+    font-size: 16px;
+    display:inline-flex;
+    width: 100%;
+    height: auto;
+    margin-top: 10px; 
+    padding-bottom: 5px;
+}
+article #cursos a{
+    text-decoration: none;
+}
+article #cursos img{
+    float: left;
+}
+#temas{
+    width: 90%; 
+    height: auto; 
+    margin-left: 10px;
+    padding: 10px 20px 10px 0px; 
+    background-color: white; 
+    display: inline-flex;
+}
+#temas #visual{
+    width: 80%; 
+    height: auto;
+}
+#temas #visual ul{
+ padding-right: auto;
+}
+#temas #visual ul li{
+    display: block;
+    padding: 5px;
+}
+ #temas #img{
+    width: 20px; 
+    height: 200px; 
+    float: left;
+    padding-left: 3%; 
+}
+#fuente{
+    width:auto; 
+    height: 50px; 
+    border-top: 1px solid black; 
+}
+#fuentes a{
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    clear: both;
+    text-align:left;
+    padding: 20px;
+    border-top: 2px solid black;
+    display: inline-flex;
+}
+footer #mas{
+    width: 10%;
+    height: auto;
+    padding: 10px 90px 10px 30px;
+}
+footer #mas li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+footer #mas li a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 0px 10px;
+}
